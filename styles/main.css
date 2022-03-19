@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1.5em;
+}
+
+nav {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  width: 100%;
+  background-color: grey;
+}
+header{
+  background-color: rgb(255, 255, 255);
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.822);
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+canvas {
+  z-index: -1;
+  font-family: 'Press Start 2p', monospace;
+  font-size: 5em;
+}
+.nes-btn{
+  width: 20em;
+}
+#quote{
+  color: white;
+  font-size: 0.8em;
+}
+#balloon {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#buttons {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#moveable {
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+}
+.icon-list {
+position: absolute;
+bottom: 0;
+left: 20px;
+z-index: 10;
+}

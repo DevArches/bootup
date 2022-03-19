@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(124, 124, 124);" onload="aboutMe()">
+    <header>
+        <div class="nes-container">
+            <h1 class="title">
+                ryan.development
+            </h1>
+        </div>
+    </header>
+    <div class="nes-container with-title nes-pointer" id="welcome" hidden>
+      <span class="title">Text</span>
+      <p>Hello world! This is a sample text. Let's see how NES.CSS works!</p>
+    </div>
+    <div id="buttons">
+      <button type="button" class="nes-btn" onclick="aboutMe()" id="abMe">
+        About Me
+      </button>
+      <br>
+      <br>
+      <button type="button" class="nes-btn" onclick="mySkills()" id="mySkills">
+        My Skills
+      </button>
+    </div>
+    <section class="icon-list">
+        <i class="nes-icon is-medium star"></i>
+        <i class="nes-icon is-medium star"></i>
+        <i class="nes-icon is-medium star"></i>
+        <i class="nes-icon is-medium star"></i>  
+        <i class="nes-icon is-medium star is-half"></i>
+        <p id="quote">"Pretty good son" -Ryan's Mom</p>
+    </section>
+    <footer>
+      <div class="nes-container">
+        <a href="https://www.linkedin.com/in/ryanjcoulson/" class="nes-icon linkedin is-large" target="_blank"></a>
+        <a href="mailto:ryanjcoulson@gmail.com" class="nes-icon gmail is-large" target="_blank"></a>
+        <a href="https://github.com/Rianail" class="nes-icon github is-large" target="_blank"></a>
+      </div>
+    </footer>
+
+    <script src="./scripts/moving.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/matrix.js"></script>
+  </body>
+</html>
