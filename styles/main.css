@@ -43,17 +43,18 @@ canvas {
 }
 #buttons {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 10%;
 }
 
 #moveable {
   background-color: white;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 60%;
   transform: translate(-50%, -50%);
   width: 650px;
+  z-index: 9;
 }
 .icon-list {
 position: absolute;
