@@ -14,6 +14,7 @@
     <title>Ryan Coulson</title>
   </head>
   <body style="background-color: rgb(124, 124, 124);" onload="aboutMe()">
+    <!-- Not yet finished... Responsive design, Project section, Animated Background -->
     <header>
         <div class="nes-container">
             <h1 class="title">
@@ -21,23 +22,19 @@
             </h1>
         </div>
     </header>
-    <div class="nes-container with-title nes-pointer" id="welcome" hidden>
-      <span class="title">Text</span>
-      <p>Hello world! This is a sample text. Let's see how NES.CSS works!</p>
-    </div>
     <div id="buttons">
       <button type="button" class="nes-btn" onclick="aboutMe()" id="abMe">
-        About Me
+        Über Mich
       </button>
       <br>
       <br>
       <button type="button" class="nes-btn" onclick="mySkills()" id="mySkills">
-        My Skills
+        Meine Skills
       </button>
       <br>
       <br>
       <button type="button" class="nes-btn" onclick="myCV()" id="myCV">
-        My CV
+        Mein Lebenslauf
       </button>
     </div>
     <section class="icon-list">
@@ -46,8 +43,9 @@
         <i class="nes-icon is-medium star"></i>
         <i class="nes-icon is-medium star"></i>  
         <i class="nes-icon is-medium star is-half"></i>
-        <p id="quote">"Pretty good son" -Ryan's Mom</p>
+        <p id="quote">"Ziemlich guter Sohn" -Ryans Mutter</p>
     </section>
+    <button onclick="construction()" id="construct"><img src="./construct.svg" alt=""></button>
     <footer>
       <div class="nes-container">
         <a href="https://www.linkedin.com/in/ryanjcoulson/" class="nes-icon linkedin is-large" target="_blank"></a>
@@ -55,9 +53,7 @@
         <a href="https://github.com/Rianail" class="nes-icon github is-large" target="_blank"></a>
       </div>
     </footer>
-
     <script src="./scripts/moving.js"></script>
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/matrix.js"></script>
   </body>
 </html>

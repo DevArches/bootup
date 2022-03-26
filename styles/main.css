@@ -62,3 +62,13 @@ bottom: 0;
 left: 20px;
 z-index: 10;
 }
+
+
+#construct {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  border: 0px;
+  width: 80px;
+  z-index: 10;
+}
